@@ -281,7 +281,7 @@
             <div class="row form-group">
               <div class="col-md-12">
                 <label class="text-black" for="fname">Full Name</label>
-                <input type="text" id="fname" class="form-control">
+                <input type="text" id="fname" class="form-control" placeholder="joe doe" name="fullname">
               </div>
 
             </div>
@@ -290,15 +290,42 @@
 
               <div class="col-md-12">
                 <label class="text-black" for="email">Email</label>
-                <input type="email" id="email" class="form-control">
+                <input type="email" id="email" class="form-control" placeholder="joe@example.com" name="email">
+              </div>
+            </div>
+            <div class="row form-group">
+
+              <div class="col-md-12">
+                <label class="text-black" for="e">Phone Number</label>
+                <input type="tel" id="tel" class="form-control" placeholder="0712345678" name="phone">
               </div>
             </div>
 
             <div class="row form-group">
 
               <div class="col-md-12">
-                <label class="text-black" for="subject">Subject</label>
-                <input type="subject" id="subject" class="form-control">
+                <label class="text-black" for="subject">Select Service</label>
+                <select id="subject" class="form-control" name="subject">
+                  <option>
+
+                    Freight Forwarding
+                  </option>
+
+                  <option>
+
+                    Customs Clearance
+                  </option>
+
+                  <option>
+
+                    Warehousing
+                  </option>
+
+                  <option>
+
+                    Distribution
+                  </option>
+                </select>
               </div>
             </div>
 
@@ -353,7 +380,7 @@
 
 
 
-  <footer class="site-footer bg-success text-black">
+  <footer class="site-footer  text-black" style="background: #8bc34a45;">
     <div class="container">
       <div class="row">
         <div class="col-md-9">
