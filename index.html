@@ -2,10 +2,54 @@
 <html lang="en">
 
 <head>
-  <title>Logistics &mdash; Colorlib Website Template</title>
+  <title>Charylogistics </title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="title" content="Charylogistics ">
+  <meta name="description" content="Chary Logistics was established in 2011 as a third party logistics (3PL) firm.
+    We are a one stop shop for all your logistics outsourcing requirements. Based in Nairobi, we continue to
+    scale and tailor our service to match market dynamics and client needs">
+  <meta name="keywords" content="logistics companies in kenya,
+    logistics management,
+    logistics and supply chain management,
+    logistics and supply chain management jobs,
+    freight forwarders kenya,
+    freight forwarders solutions">
+  <meta name="robots" content="index">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="language" content="English">
+  <meta name="author" content="Abdisatar Mohamed">
 
+  <!-- Primary Meta Tags -->
+  <meta name="title" content="Charylogistics">
+  <meta name="description"
+    content="Edaji is a system developed to help recruitment agencies to save time, streamline their workflow and provide consistency">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://metatags.io/">
+  <meta property="og:title" content="Edaji">
+  <meta property="og:description"
+    content="Edaji is a system developed to help recruitment agencies to save time, streamline their workflow and provide consistency">
+  <meta property="og:image"
+    content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://metatags.io/">
+  <meta property="twitter:title" content="Edaji">
+  <meta property="twitter:description"
+    content="Edaji is a system developed to help recruitment agencies to save time, streamline their workflow and provide consistency">
+  <meta property="twitter:image"
+    content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
+
+
+  <!-- favicon -->
+
+  <link rel="icon" type="image/png" sizes="192x192" href="images/charylogistics/android-chrome-192x192.png">
+  <link rel="icon" type="image/png" sizes="512x512" href="images/charylogistics/android-chrome-512x512.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/charylogistics/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/charylogistics/favicon-16x16.png">
   <link rel="stylesheet"
     href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,700,900|Display+Playfair:200,300,400,700">
   <link rel="stylesheet" href="fonts/icomoon/style.css">
@@ -424,7 +468,24 @@
     </div>
   </footer>
   </div>
+  <!-- Modal -->
+  <div class="modal fade" id="messageModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel"> Response Status</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="modal-message"></div>
+        </div>
 
+      </div>
+    </div>
+  </div>
   <script src="js/jquery-3.3.1.min.js"></script>
   <script src="js/jquery-migrate-3.0.1.min.js"></script>
   <script src="js/jquery-ui.js"></script>
@@ -441,7 +502,102 @@
   <script>
     $(document).ready(function () {
 
-      $("#")
+      $("#submitEmail").unbind('click').bind('click', function (e) {
+        // e.preventDefault()
+        console.log("pressed")
+        //
+        $("#sendEmail").unbind('submit').bind('submit', function (e) {
+          e.preventDefault();
+          var form = $(this);
+          var formData = new FormData(this);
+          console.log(formData)
+          $.ajax({
+
+
+            url: form.attr('action'),
+            type: form.attr('method'),
+            data: formData,
+            dataType: 'json',
+            // cache: false,
+            contentType: false,
+            processData: false,
+            success: function (response) {
+              console.log(typeof response)
+
+
+              $("#messageModal").modal("show")
+              if (response.success == true) {
+
+                $("html, body, div.modal, .modal-content, div.modal-body").animate({
+                  scrollTop: '0'
+                }, 100);
+
+                // shows a successful message after operation
+                $('.modal-message').html('<div class="alert alert-success">' +
+                  '<button type="button" class="close" data-dismiss="alert">&times;</button>' +
+                  '<strong><i class="ni ni-like-2"></i></strong> ' + response.message +
+                  '</div>');
+
+                $('.modal-message').append(
+                  '<div class="row">Redirecting you to the login page</div>');
+
+
+                // remove the mesages
+                $(".alert-success").delay(1000).show(10, function () {
+                  $(this).delay(3000).hide(10, function () {
+                    $(this).remove();
+
+                    $(this).delay(5000).show(10, function () {
+
+                      $("#messageModal").modal("hide");
+                      // document.location.assign("/")
+                    })
+                    // $('.modal-body form').show()
+                  });
+                }); // /.alert
+
+
+              } // /if response.success
+              else {
+
+
+                $("#messageModal").modal("show")
+
+                $("html, body, div.modal, .modal-content, div.modal-body").animate({
+                  scrollTop: '0'
+                }, 100);
+
+                // shows a successful message after operation
+                $('.modal-message').append('<div class="alert alert-warning shaking-2">' +
+                  '<button type="button" class="close" data-dismiss="alert">&times;</button>' +
+                  '<strong><i class="ni ni-like-2"></i></strong> ' + response.message +
+                  '</div>');
+
+                // remove the mesages
+                $(".alert-warning").delay(500).show(10, function () {
+                  $(this).delay(3000).hide(10, function () {
+                    $(this).remove();
+                    $("#messageModal").modal("hide");
+
+                  });
+                }); // /.alert
+
+
+
+
+
+
+              }
+
+            } // /success function
+          }); // /ajax function
+
+          return false;
+
+        })
+
+      })
+
     })
   </script>
 

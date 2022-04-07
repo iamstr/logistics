@@ -1,14 +1,15 @@
     <?php
+    require_once "config.php";
 
     use PHPMailer\PHPMailer\PHPMailer;
     use PHPMailer\PHPMailer\SMTP;
     use PHPMailer\PHPMailer\Exception;
 
 
-    require_once "config.php";
+
     require_once 'vendor/autoload.php';
 
-    $valid["message"] = "something went wrong ";
+    $valid = array();
     if (isset($_POST['email'])) {
 
 
@@ -23,7 +24,7 @@
 
         $emailId = $_POST['email'];
         $message = $_POST['message'];
-        $name = $_POST['name'];
+        $name = $_POST['fullname'];
         $phone = $_POST['phone'];
         $subject = $_POST['subject'];
 
@@ -58,13 +59,17 @@
 
             $mail->Subject  =  $subject . " Quotation";
             $mail->IsHTML(true);
-            $mail->Body    =  $message . "  Here is my mobile phone ,contact me when you get this " . $phone;
+            $mail->Body    =  " i am $name <br/>" . $message . " <br/> Here is my mobile phone $phone and here's my $emailId,   contact me when you get this ";
             if ($mail->Send()) {
                 $valid["message"] = "We got your message we will get back to you as soon as possible";
+                $valid["success"] = true;
             } else {
                 $valid["message"] = " something happened ";
+                $valid["success"] = false;
             }
         } else {
+            $valid["message"] = " fill in all the required fields ";
+            $valid["success"] = false;
         }
     }
 
