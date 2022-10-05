@@ -850,7 +850,7 @@ h5,
   bottom: 0;
   right: 0;
   top: 0;
-  background: #8bc34a45;
+  background: #4c331f8f;
 }
 
 .site-blocks-cover .player {
@@ -894,9 +894,9 @@ h5,
 }
 
 .site-blocks-cover .btn:hover {
-  color: #fff !important;
-  background: none;
-  border: 2px solid #fff;
+  border: 2px solid #fbd2b6;
+  background-color: #fbd2b6 !important;
+  color: #4c331f !important;
 }
 
 .site-blocks-cover .intro-text {
