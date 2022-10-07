@@ -5,6 +5,9 @@
 .brand-color-2 {
   color: #fbd2b6;
 }
+.brand-bg-2 {
+  background-color: #faeadc;
+}
 .brand-color-3 {
   color: #fdfbf0;
 }
@@ -31,4 +34,57 @@ html {
 .site-navbar .site-navigation .site-menu .active > a {
   background-color: #4c331f;
   color: #fbd2b6;
+}
+
+.btn-primary {
+  background-color: #fbd2b6 !important;
+  color: #4c331f !important;
+}
+
+.service-type {
+  min-height: 25rem;
+}
+.process-card {
+  box-shadow: 0 0.5rem 1rem #e2e2e261;
+  border-color: #fffbf7;
+}
+.text-stroke {
+  padding: 1rem;
+  width: fit-content;
+  border-radius: 0.5rem;
+}
+
+@supports (-webkit-text-stroke: 1px #4c331f) {
+  .text-stroke {
+    -webkit-text-stroke: 1px #4c331f;
+    -webkit-text-fill-color: #faeadc;
+  }
+}
+.wcu-img {
+  background: url("../images/hero-img/andy-li-CpsTAUPoScw-unsplash.jpg"),
+    #4c331f;
+  height: 31.25rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: luminosity;
+}
+
+.footer-59391 {
+  /* background-color: #eff6ff; */
+  border-top: 1px solid #efefef;
+  padding: 4rem 0;
+}
+
+.footer-59391 .nav-links.nav-left li:first-child {
+  padding-left: 0;
+}
+
+.footer-59391 .nav-links li {
+  display: inline-block;
+}
+
+.footer-59391 .nav-links li a {
+  color: #4c331f;
+  padding: 10px;
 }
