@@ -88,3 +88,13 @@ html {
   color: #4c331f;
   padding: 10px;
 }
+
+.not-upper {
+  text-transform: none;
+}
+.box-delivered {
+  top: 26.5rem;
+  right: 1rem;
+  height: 12.25rem;
+  border-radius: 1rem;
+}
