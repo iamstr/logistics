@@ -110,3 +110,35 @@ html {
 .img-about-round {
   border-radius: 0.8rem;
 }
+#hero {
+  overflow-x: hidden;
+  position: relative;
+}
+
+#hero::before {
+  content: "";
+  position: absolute; /* Sit on top of the page content */
+  width: 100%; /* Full width (cover the whole page) */
+  height: 100%; /* Full height (cover the whole page) */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(
+    179deg,
+    black,
+    #100b07e6
+  ); /* Black background with opacity */
+  z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+  cursor: pointer; /* Add a pointer on hover */
+}
+
+video#bgvideo {
+}
+#hero-overlay {
+  transform: translate(10%, -50%);
+  top: 55%;
+  left: 0%;
+  position: absolute;
+  z-index: 5;
+}
