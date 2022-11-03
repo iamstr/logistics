@@ -93,8 +93,20 @@ html {
   text-transform: none;
 }
 .box-delivered {
-  top: 26.5rem;
-  right: 1rem;
+  top: 27.5rem;
+  right: -0.5rem;
   height: 12.25rem;
   border-radius: 1rem;
+}
+.no-overflow {
+  overflow: hidden;
+}
+
+.about-img {
+  margin-top: -8rem;
+  border: 10px solid currentColor;
+  border-radius: 1.6rem;
+}
+.img-about-round {
+  border-radius: 0.8rem;
 }
