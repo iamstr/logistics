@@ -14,7 +14,7 @@
 body,
 html {
   font-family: "Nunito", sans-serif;
-  background-color: #fdfbf0;
+  background-color: #fbfaf7;
   color: #4c331f;
 }
 
@@ -37,8 +37,8 @@ html {
 }
 
 .btn-primary {
-  background-color: #fbd2b6 !important;
-  color: #4c331f !important;
+  background-color: #ff4600 !important;
+  color: #fff !important;
 }
 
 .service-type {
@@ -141,4 +141,75 @@ video#bgvideo {
   left: 0%;
   position: absolute;
   z-index: 5;
+}
+
+#about {
+  background-image: url("../images/hero-img/lcz9nxhoslo-brooke-lark.jpg");
+  height: 60rem;
+  background-attachment: fixed;
+  background-position: center;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#try {
+  background-image: url("../images/hero-img/bg_4.jpg");
+  height: 45rem;
+  background-attachment: fixed;
+  background-position: center;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#services {
+  background-image: url("../images/hero-img/Group\ 3503.svg");
+  /* height: 45rem; */
+  background-attachment: fixed;
+  background-position: center;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-position: 1rem 8rem;
+  background-size: 76rem;
+}
+
+#try .overlay {
+  content: "";
+  position: absolute; /* Sit on top of the page content */
+  width: 100%; /* Full width (cover the whole page) */
+  height: 100%; /* Full height (cover the whole page) */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(
+    179deg,
+    rgba(0, 0, 0, 0.429),
+    #100b078e
+  ); /* Black background with opacity */
+  z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+  cursor: pointer; /* Add a pointer on hover */
+}
+
+h1.detail-info {
+  font-size: 3rem;
+  width: fit-content;
+}
+
+.font-5 {
+  line-height: 1.5;
+  font-size: 4rem;
+}
+
+.menu-block::before {
+  content: "";
+  border-bottom: 2px dashed #ccc;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 1;
+  top: 30%;
 }
