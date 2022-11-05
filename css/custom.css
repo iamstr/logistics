@@ -17,19 +17,22 @@ html {
   background-color: #fbfaf7;
   color: #4c331f;
 }
-
+.pacifico {
+  font-family: "Pacifico", sans-serif;
+  color: #ff4600;
+}
 .site-navbar .site-navigation .site-menu > li > a {
-  color: #4c331f;
+  color: #fff6ee;
   border: 2px solid transparent;
   padding: 0.5rem;
 }
 .site-navbar .site-navigation .site-menu > li > a:hover {
-  color: #4c331f;
-  border-bottom: 2px solid #4c331f;
+  color: #fff6ee;
+  border-bottom: 2px solid #f8150e;
   transition: all 0.4s ease-in-out;
 }
 .site-navbar .site-navigation .site-menu .active > a {
-  color: #4c331f;
+  color: #fff6ee;
 }
 .site-navbar .site-navigation .site-menu .active > a {
   background-color: #4c331f;
@@ -212,4 +215,36 @@ h1.detail-info {
   position: absolute;
   z-index: 1;
   top: 30%;
+}
+.mission-section::after {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  content: "";
+  bottom: 0;
+  z-index: 0;
+  background: url("../images/hero-img/about_overlay.png") bottom right no-repeat;
+  background-size: 15% 60%;
+  right: 0px;
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  body,
+  #request,
+  .site-wrap {
+    overflow-x: hidden;
+  }
+  #hero {
+    height: 50rem;
+  }
+  #about {
+    height: 90rem;
+  }
+  #try {
+    height: 88rem;
+  }
+
+  #services {
+    height: 208rem;
+  }
+  /* Styles */
 }
