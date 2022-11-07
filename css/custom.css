@@ -240,11 +240,16 @@ h1.detail-info {
     height: 90rem;
   }
   #try {
-    height: 88rem;
+    height: 60rem;
   }
 
   #services {
     height: 208rem;
+  }
+
+  .font-5 {
+    line-height: 1.7;
+    font-size: 3rem;
   }
   /* Styles */
 }
