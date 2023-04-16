@@ -1,21 +1,25 @@
 .brand-color {
-  background-color: #4c331f;
-  color: #fbd2b6;
+  background-color: #00cdfe;
+  color: #234B52;
 }
 .brand-color-2 {
   color: #fbd2b6;
 }
 .brand-bg-2 {
-  background-color: #faeadc;
+  background-color: #EFF8FA;
+  color:#234B52;
 }
-.brand-color-3 {
-  color: #fdfbf0;
+.brand-bg-3 {
+  background-color: #234B52;
+}
+.brand-bg-4 {
+  background-color: #D5F7FF;
 }
 body,
 html {
   font-family: "Nunito", sans-serif;
-  background-color: #fdfbf0;
-  color: #4c331f;
+  background-color: #EFF8FA;
+  color: #234B52;
 }
 
 .site-navbar .site-navigation .site-menu > li > a {
@@ -25,20 +29,26 @@ html {
 }
 .site-navbar .site-navigation .site-menu > li > a:hover {
   color: #4c331f;
-  border-bottom: 2px solid #4c331f;
+  border-bottom: 2px solid #234B52;
+  transition: all 0.4s ease-in-out;
+}
+.site-navbar .site-navigation .site-menu > li.active > a:hover {
+  color: #234B52;
+  background-color: #04cdff;
   transition: all 0.4s ease-in-out;
 }
 .site-navbar .site-navigation .site-menu .active > a {
-  color: #4c331f;
+ background-color: #EFF8FA;
+  color:#234B52;
 }
 .site-navbar .site-navigation .site-menu .active > a {
-  background-color: #4c331f;
-  color: #fbd2b6;
+ background-color: #234B52;
+  color: #EFF8FA;
 }
 
 .btn-primary {
-  background-color: #fbd2b6 !important;
-  color: #4c331f !important;
+   background-color: #00cdfe !important;
+  color: #234B52 !important;
 }
 
 .service-type {
@@ -62,7 +72,7 @@ html {
 }
 .wcu-img {
   background: url("../images/hero-img/andy-li-CpsTAUPoScw-unsplash.jpg"),
-    #4c331f;
+    #bdf2ff;
   height: 31.25rem;
   background-position: center;
   background-repeat: no-repeat;
@@ -109,4 +119,10 @@ html {
 }
 .img-about-round {
   border-radius: 0.8rem;
+}
+.bg-world-map{
+  background-image: url('../images/hero-img/world\ map.png');
+  background-size: cover;
+    background-position: center;
+    background-repeat-y: no-repeat;
 }
