@@ -42,7 +42,7 @@
       </div>
       <div class="align-items-center d-flex top-info">
         <img src="images/icons/Icon awesome-mail-bulk.svg" alt="" width="34" height="34">
-        <h6 class="pl-3">naif@naiflogistics.com </h4>
+        <h6 class="pl-3">info@naiflogistics.com </h4>
       </div>
       <div class="align-items-center d-flex top-info">
         <img src="images/icons/Icon awesome-phone-alt.svg" alt="" width="34" height="34">
@@ -597,7 +597,44 @@
   <script>
     $(document).ready(function () {
 
-      $("#")
+      let images = [
+        "images/hero-img/logistics-image-1.jpeg",
+        "images/hero-img/logistics-image-2.jpeg",
+        "images/hero-img/logistics-image-3.jpeg",
+        "images/hero-img/logistics-image-4.jpeg",
+        "images/hero-img/logistics-image-5.jpeg"
+      ];
+
+      let currentIndex = 0;
+
+      function slideshow() {
+        // Create a new image element to preload the next image
+        let nextImage = new Image();
+        nextImage.src = images[(currentIndex + 1) % images.length];
+
+        // Fade out the old image
+        $(".site-blocks-cover").fadeOut(100, function () {
+          // Change the background image
+          $(this).css("background-image", `url(${images[currentIndex]})`);
+
+          // Fade in the new image
+          $(this).fadeIn(100);
+
+          // Increment the index
+          currentIndex++;
+
+          // Loop back to the beginning if the index goes out of bounds
+          if (currentIndex >= images.length) {
+            currentIndex = 0;
+          }
+
+          // Set the timeout for the next slide
+          setTimeout(slideshow, 2000);
+        });
+      }
+
+      // Start the slideshow
+      slideshow();
     })
   </script>
 
