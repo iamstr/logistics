@@ -1,6 +1,6 @@
 .brand-color {
-  background-color: #00cdfe;
-  color: #234B52;
+  background-color: #181818 !important;
+  color: #d2e0e3 !important;
 }
 .brand-color-2 {
   color: #fbd2b6;
@@ -18,7 +18,7 @@
 body,
 html {
   font-family: "Nunito", sans-serif;
-  background-color: #EFF8FA;
+  background-color: #f7f6f8;
   color: #234B52;
 }
 
@@ -47,8 +47,8 @@ html {
 }
 
 .btn-primary {
-   background-color: #00cdfe !important;
-  color: #234B52 !important;
+  background-color: #181818 !important;
+  color: #d2e0e3 !important;
 }
 
 .service-type {
