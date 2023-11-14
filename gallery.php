@@ -12,16 +12,15 @@ include("_db.php"); ?>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta http-equiv="Cache-control" content="no-cache">
 
-    <meta name="title" content="LELEI PRENCY EXPRESS RECRUITMENT AGENCY " />
-    <meta name="description" content="LELEI PRENCY EXPRESS RECRUITMENT AGENCY  recruitment agencies that helps job seekers find jobs in the gufl countries" />
-    <meta name="keywords" content="recruitment agencies in kenya,jobs in qatar,jobs in dubai,jobs,in uae,kenya best recruitment agency,ALMOHTADA TRAVEL LTD,find jobs in the middle east
-recruitment process,
-recruitment agencies,
-recruitment agencies nairobi,
-recruitment agency,
-recruitment agencies in qatar,
-recruitment agencies in kenya for qatar,
-a recruitment agency,LELEI PRENCY EXPRESS RECRUITMENT AGENCY,Hr consultant in kenya" />
+    <meta name="title" content="GRIP UP EXPRESS  " />
+    <meta name="description" content="GRIP UP EXPRESS   non-profit agencies " />
+    <meta name="keywords" content="non-profit agencies in kenya,
+non-profit process,
+non-profit agencies,
+non-profit agencies nairobi,
+non-profit agencies in somalia,
+non-profit agencies in kenya for somalia,
+,GRIP UP " />
 
     <meta name="robots" content="index" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -69,7 +68,7 @@ a recruitment agency,LELEI PRENCY EXPRESS RECRUITMENT AGENCY,Hr consultant in ke
 
     <link rel="stylesheet" href="assets/css/style.css">
 
-    <title>LELEI PRENCY GALLERY</title>
+    <title>GRIP UP GALLERY</title>
 
 </head>
 <style>
@@ -291,18 +290,9 @@ a recruitment agency,LELEI PRENCY EXPRESS RECRUITMENT AGENCY,Hr consultant in ke
                                 </li>
 
 
+                              
                                 <li class="">
-                                    <a class="nav-link scroll text-white text-uppercase" href="/#partners">Our partners</a>
-                                </li>
-                                <li class="">
-                                    <a class="nav-link scroll text-white text-uppercase" href="/#jobs">Jobs</a>
-                                </li>
-
-                                <li class="">
-                                    <a class="nav-link scroll text-white text-uppercase active" href="#gallery">gallery</a>
-                                </li>
-                                <li class="">
-                                    <a class="nav-link scroll text-white text-uppercase" href="/#contact">Contact Us</a>
+                                    <a class="nav-link scroll text-white text-uppercase" href="about">About us</a>
                                 </li>
                             </ul>
                         </nav>
@@ -392,7 +382,7 @@ a recruitment agency,LELEI PRENCY EXPRESS RECRUITMENT AGENCY,Hr consultant in ke
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-3">
-                        <img loading="lazy" src="assets/logo/lelei.png" alt="Lelei prency express  recruitment agency" width="230" height="60" class=""></a>
+                        <img loading="lazy" src="assets/logo/lelei.png" alt="GRIP UP express  " width="230" height="60" class=""></a>
                     </div>
                     <div class="col-lg-6 text-lg-center">
                         <ul class="list-unstyled nav-links nav-left mb-4 mb-lg-0">
@@ -403,18 +393,7 @@ a recruitment agency,LELEI PRENCY EXPRESS RECRUITMENT AGENCY,Hr consultant in ke
                                 <a class="" href="about">About Us</a>
                             </li>
 
-                            <li class="">
-                                <a class="" href="/#service">Our services</a>
-                            </li>
-                            <li class="">
-                                <a class="" href="/#jobs">Jobs</a>
-                            </li>
-                            <li class="">
-                                <a class="" href="#gallery">gallery</a>
-                            </li>
-                            <li class="">
-                                <a class="" href="/#contact">Contact Us</a>
-                            </li>
+                          
                         </ul>
                     </div>
                     <div class="col-lg-3">
@@ -429,41 +408,9 @@ a recruitment agency,LELEI PRENCY EXPRESS RECRUITMENT AGENCY,Hr consultant in ke
             </div>
         </div>
         <div class=" text-center order-3 order-lg-3">
-            <p class="m-0 text-muted"><small>© 2022. All Rights Reserved.</small></p>
+            <p class="m-0 text-muted"><small>© 2023. All Rights Reserved.</small></p>
         </div>
-        <div class="container d-none">
-            <div class="row align-items-center">
-                <div class="col-lg-4 text-lg-center site-logo order-1 order-lg-2 mb-3 mb-lg-0">
-                    <a href="#" class="m-0 p-0">LELEI PRENCY EXPRESS RECRUITMENT AGENCY.</a>
-                </div>
-                <div class="col-lg-4 order-2 order-lg-1 mb-3 mb-lg-0">
-                    <ul class="list-unstyled nav-links m-0 nav-left">
-                        <li class="">
-                            <a class="nav-link scroll" href="/">Home <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="">
-                            <a class="" href="about">About Us</a>
-                        </li>
-
-                        <li class="">
-                            <a class="" href="/#job">Our services</a>
-                        </li>
-                        <li class="">
-                            <a class="" href="/#other">Jobs</a>
-                        </li>
-                        <li class="">
-                            <a class="" href="#">gallery</a>
-                        </li>
-                        <li class="">
-                            <a class="" href="/#contact">Contact Us</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-lg-4 text-lg-right order-3 order-lg-3">
-                    <p class="m-0 text-muted"><small>© 2022. All Rights Reserved.</small></p>
-                </div>
-            </div>
-        </div>
+      
     </footer>
 
     <script src="assets/js/jquery-3.3.1.min.js"></script>
