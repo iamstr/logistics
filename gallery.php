@@ -66,6 +66,7 @@ non-profit agencies in kenya for somalia,
 
     <link rel="stylesheet" href="assets/css/aos.css">
 
+    <link rel="stylesheet" href="assets/css/style2.css">
     <link rel="stylesheet" href="assets/css/style.css">
 
     <title>GRIP UP GALLERY</title>
