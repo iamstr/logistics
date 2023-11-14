@@ -27,20 +27,20 @@ non-profit agencies in kenya for somalia,
     <meta name="language" content="English" />
     <meta name="author" content="Abdisatar Mohamed" />
 
-    <link rel="apple-touch-icon" sizes="57x57" href="assets/logo/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="assets/logo/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="assets/logo/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="assets/logo/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="assets/logo/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="assets/logo/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="assets/logo/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="assets/logo/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/logo/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="assets/logo/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/logo/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="assets/logo/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/logo/favicon-16x16.png">
-    <link rel="manifest" href="assets/logo/manifest.json">
+    <link rel="apple-touch-icon" sizes="57x57" href="logo/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="logo/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="logo/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="logo/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="logo/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="logo/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="logo/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="logo/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="logo/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="logo/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="logo/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="logo/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="logo/favicon-16x16.png">
+    <link rel="manifest" href="logo/manifest.json">
     <meta name="msapplication-TileColor" content="#f52727">
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
     <meta name="theme-color" content="#5535de">
@@ -52,22 +52,22 @@ non-profit agencies in kenya for somalia,
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,700,900|Display+Playfair:200,300,400,700">
     <link rel="stylesheet" href="fonts/icomoon/style.css">
 
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/magnific-popup.css">
-    <link rel="stylesheet" href="assets/css/jquery-ui.css">
-    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
 
-    <link rel="stylesheet" href="assets/css/bootstrap-datepicker.css">
-
-
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
 
 
 
-    <link rel="stylesheet" href="assets/css/aos.css">
 
-    <link rel="stylesheet" href="assets/css/style2.css">
-    <link rel="stylesheet" href="assets/css/style.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/style2.css">
+    <link rel="stylesheet" href="css/style.css">
 
     <title>GRIP UP GALLERY</title>
 
@@ -280,7 +280,7 @@ non-profit agencies in kenya for somalia,
                 <div class="row align-items-center">
 
                     <div class="col-11 col-xl-2">
-                        <img loading="lazy" src="assets/logo/lelei_white.png" alt="ALYA AGENCY" width="220" height="55" class=""></a>
+                        <img loading="lazy" src="logo/lelei_white.png" alt="ALYA AGENCY" width="220" height="55" class=""></a>
                     </div>
                     <div class="col-12 col-md-10 d-none d-xl-block">
                         <nav class="site-navigation position-relative text-right" role="navigation">
@@ -383,7 +383,7 @@ non-profit agencies in kenya for somalia,
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-3">
-                        <img loading="lazy" src="assets/logo/lelei.png" alt="GRIP UP express  " width="230" height="60" class=""></a>
+                        <img loading="lazy" src="logo/lelei.png" alt="GRIP UP express  " width="230" height="60" class=""></a>
                     </div>
                     <div class="col-lg-6 text-lg-center">
                         <ul class="list-unstyled nav-links nav-left mb-4 mb-lg-0">
@@ -414,19 +414,19 @@ non-profit agencies in kenya for somalia,
       
     </footer>
 
-    <script src="assets/js/jquery-3.3.1.min.js"></script>
-    <script src="assets/js/jquery-migrate-3.0.1.min.js"></script>
-    <script src="assets/js/jquery-ui.js"></script>
-    <script src="assets/js/popper.min.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/owl.carousel.min.js"></script>
-    <script src="assets/js/jquery.stellar.min.js"></script>
-    <script src="assets/js/jquery.countdown.min.js"></script>
-    <script src="assets/js/jquery.magnific-popup.min.js"></script>
-    <script src="assets/js/bootstrap-datepicker.min.js"></script>
-    <script src="assets/js/aos.js"></script>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/jquery-migrate-3.0.1.min.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="js/jquery.countdown.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/bootstrap-datepicker.min.js"></script>
+    <script src="js/aos.js"></script>
 
-    <script src="assets/js/main.js"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>
