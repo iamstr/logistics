@@ -280,7 +280,7 @@ non-profit agencies in kenya for somalia,
                 <div class="row align-items-center">
 
                     <div class="col-11 col-xl-2">
-                        <img loading="lazy" src="logo/lelei_white.png" alt="ALYA AGENCY" width="220" height="55" class=""></a>
+                        <img loading="lazy" src="logo/lelei_white.png" alt="GRIP UP  AGENCY" width="220" height="55" class=""></a>
                     </div>
                     <div class="col-12 col-md-10 d-none d-xl-block">
                         <nav class="site-navigation position-relative text-right" role="navigation">
