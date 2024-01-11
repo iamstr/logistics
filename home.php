@@ -24,6 +24,9 @@ include('session.php'); ?>
             <td colspan="2" align="center">Note: Supported image format: .jpeg, .jpg, .png, .gif</td>
         </tr>
         <tr>
+            <td colspan="2" align="center"><textarea name="message" rows="4" cols="50" maxlength="200"></textarea></td>
+        </tr>
+        <tr>
             <td colspan="2" align="center"><input type="submit" value="Create Gallery" id="selectedButton" /></td>
         </tr>
     </table>
