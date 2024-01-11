@@ -351,7 +351,7 @@ non-profit agencies in kenya for somalia,
                                 // echo "<br>";
                                 if ($count == 0) :
                                     // echo "id: " . $row[$count]["upload_id"] . " - Name: " . $row[$count]["upload_name"] . "-count: " . $count  .  "<br>";
-                                    echo '<img src="' . $row["upload_name"] . '" style="width:100%" alt="' . $row["upload_id"] . '">';
+                                    echo '<img src="' . $row["upload_name"] . '" style="width:100%" alt="' . $row["upload_id"] . '"> <h1>'.$row["message"].'</h1>';
                                 elseif ($count > 0 && isset($row["upload_name"])) :
                                     // echo "id: " . $row[$count]["upload_id"] . " - Name: " . $row[$count]["upload_name"] . "-count: " . $count + 1 .  "<br>";
                                     echo '<img src="' . $row["upload_name"] . '" style="width:100%" alt="' . $row["upload_id"] . '">
