@@ -31,7 +31,7 @@ foreach ($_FILES["files"]["tmp_name"] as $key => $tmp_name) {
             $filename = basename($file_name, $ext);
             $newFileName = $filename . time() . "." . $ext;
             move_uploaded_file($file_tmp = $_FILES["files"]["tmp_name"][$key], "images/"  . $newFileName);
-            $sql = "update `upload` set  `upload_name` = 'images/$file_name' where upload_name='images/$file_name'";
+            $sql = "INSERT INTO `upload`( `upload_name`, message) VALUES ('images/$file_name','$message')";
             if ($db->query($sql) === TRUE) {
                 echo "<script>
                 alert('New photo updated successfully');
