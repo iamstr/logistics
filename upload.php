@@ -19,6 +19,7 @@ foreach ($_FILES["files"]["tmp_name"] as $key => $tmp_name) {
             move_uploaded_file($file_tmp = $_FILES["files"]["tmp_name"][$key], "images/"   . $file_name);
             $sql = "INSERT INTO `upload`( `upload_name`, message) VALUES ('images/$file_name','$message')";
             if ($db->query($sql) === TRUE) {
+                echo $sql;
                 echo "<script>
                 alert('New photo uploaded successfully');
                 </script>";
