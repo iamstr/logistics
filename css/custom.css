@@ -2,19 +2,24 @@
   background-color: #181818 !important;
   color: #d2e0e3 !important;
 }
+
 .brand-color-2 {
   color: #fbd2b6;
 }
+
 .brand-bg-2 {
   background-color: #EFF8FA;
-  color:#234B52;
+  color: #234B52;
 }
+
 .brand-bg-3 {
   background-color: #234B52;
 }
+
 .brand-bg-4 {
   background-color: #D5F7FF;
 }
+
 body,
 html {
   font-family: "Nunito", sans-serif;
@@ -22,27 +27,31 @@ html {
   color: #234B52;
 }
 
-.site-navbar .site-navigation .site-menu > li > a {
+.site-navbar .site-navigation .site-menu>li>a {
   color: #4c331f;
   border: 2px solid transparent;
   padding: 0.5rem;
 }
-.site-navbar .site-navigation .site-menu > li > a:hover {
+
+.site-navbar .site-navigation .site-menu>li>a:hover {
   color: #4c331f;
   border-bottom: 2px solid #234B52;
   transition: all 0.4s ease-in-out;
 }
-.site-navbar .site-navigation .site-menu > li.active > a:hover {
+
+.site-navbar .site-navigation .site-menu>li.active>a:hover {
   color: #234B52;
   background-color: #04cdff;
   transition: all 0.4s ease-in-out;
 }
-.site-navbar .site-navigation .site-menu .active > a {
- background-color: #EFF8FA;
-  color:#234B52;
+
+.site-navbar .site-navigation .site-menu .active>a {
+  background-color: #EFF8FA;
+  color: #234B52;
 }
-.site-navbar .site-navigation .site-menu .active > a {
- background-color: #234B52;
+
+.site-navbar .site-navigation .site-menu .active>a {
+  background-color: #234B52;
   color: #EFF8FA;
 }
 
@@ -54,10 +63,12 @@ html {
 .service-type {
   min-height: 25rem;
 }
+
 .process-card {
   box-shadow: 0 0.5rem 1rem #e2e2e261;
   border-color: #fffbf7;
 }
+
 .text-stroke {
   padding: 1rem;
   width: fit-content;
@@ -70,6 +81,7 @@ html {
     -webkit-text-fill-color: #faeadc;
   }
 }
+
 .wcu-img {
   background: url("../images/hero-img/logistics-image-3.jpeg");
   height: 31.25rem;
@@ -101,12 +113,14 @@ html {
 .not-upper {
   text-transform: none;
 }
+
 .box-delivered {
   top: 27.5rem;
   right: -0.5rem;
   height: 12.25rem;
   border-radius: 1rem;
 }
+
 .no-overflow {
   overflow: hidden;
 }
@@ -116,12 +130,32 @@ html {
   border: 10px solid currentColor;
   border-radius: 1.6rem;
 }
+
 .img-about-round {
   border-radius: 0.8rem;
 }
-.bg-world-map{
+
+.bg-world-map {
   background-image: url('../images/hero-img/world\ map.png');
   background-size: cover;
-    background-position: center;
-    background-repeat-y: no-repeat;
+  background-position: center;
+  background-repeat-y: no-repeat;
+}
+
+.object-fit {
+  object-fit: cover;
+}
+
+.rounded-lg {
+  border-radius: .7rem;
+}
+
+.shadow {
+  -webkit-box-shadow: 0 .5rem 1rem 8d8e8e26 !important;
+  box-shadow: 0 .5rem 1rem rgba(141, 142, 142, 0.149) !important;
+}
+
+.shadow-sm {
+  -webkit-box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075) !important;
+  box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075) !important;
 }
